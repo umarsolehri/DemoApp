@@ -1,0 +1,16 @@
+﻿global using System.Data;
+global using Microsoft.Extensions.Configuration;
+global using Dapper;
+global using Microsoft.Data.SqlClient;
+global using Microsoft.Extensions.DependencyInjection;
+global using Infrastructure.Common;
+global using Domain.Abstraction;
+global using Domain.Common;
+global using Domain.Contracts.Authentication;
+global using Domain.ViewModels;
+global using Microsoft.IdentityModel.Tokens;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using System.Text;
+global using Infrastructure.Abstraction;
+global using Infrastructure.Authentication;

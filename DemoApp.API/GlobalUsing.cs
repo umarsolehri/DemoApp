@@ -1,0 +1,12 @@
+﻿global using FluentValidation;
+global using Microsoft.AspNetCore.Authentication.JwtBearer;
+global using Microsoft.IdentityModel.Tokens;
+global using Microsoft.OpenApi.Models;
+global using System.Text;
+global using Microsoft.AspNetCore.Diagnostics;
+global using System.Net;
+global using Domain.Enums;
+global using API.Middleware;
+global using Infrastructure;
+global using Application;
+global using Domain.Exceptions;
