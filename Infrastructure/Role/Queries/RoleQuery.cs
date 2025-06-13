@@ -3,7 +3,7 @@ using Domain.Entities;
 using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastructure.Persistence.Queries;
+namespace Infrastructure.Role.Queries;
 
 public class RoleQuery : IRoleQuery
 {
